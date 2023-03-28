@@ -23,6 +23,7 @@
 
     <form class="addingProduct" action="/editProduct" method="POST">
         <h2>Редактирование товара</h2>
+        <input type="hidden" name="id" value="<%=data._id%>">
         <input type="text" placeholder="Название продукта" value="<%=data.title%>" name="title">
         <input type="number" placeholder="Цена" value="<%=data.price%>" name="price">
         <input type="number" placeholder="Скидка" value="<%=data.sale%>" name="sale">

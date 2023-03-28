@@ -79,7 +79,7 @@ app.get('/delete/:id', async (req, res) => {
     )
     res.status(200).redirect('/')
     // axios.delete(`/delete/${req.params.id}`).then(res => res.redirect('/'))
-    // res.redirect('/')
+    // res.redirect('/')/
 })
 
 app.get('/products', (req, res) => {
